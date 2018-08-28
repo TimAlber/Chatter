@@ -1,0 +1,502 @@
+79.198.225.142 - - [19/Aug/2018 19:32:02] "GET /stimmen.html HTTP/1.1" 200 -
+192.168.178.42 - - [19/Aug/2018 19:32:09] "GET / HTTP/1.1" 200 -
+192.168.178.42 - - [19/Aug/2018 19:32:09] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:32:43] "GET / HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:32:43] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:33:03] "GET /stimmen.html HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:33:03] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:36:54] "GET /stimmen.html HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:36:55] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:36:55] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:38:25] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:38:25] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:39:19] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:39:58] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:40:24] "GET /stimmen.html HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:40:25] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:40:25] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:41:34] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:41:43] "GET /stimmentext.txt HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:46:09] "GET /stimmen.html HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:46:09] "GET /ajaxstuff.js HTTP/1.1" 200 -
+79.198.225.142 - - [19/Aug/2018 19:46:10] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [20/Aug/2018 12:38:43] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [20/Aug/2018 12:38:43] code 404, message File not found
+84.170.236.32 - - [20/Aug/2018 12:38:43] "GET /favicon.ico HTTP/1.1" 404 -
+84.170.236.32 - - [20/Aug/2018 12:39:02] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [20/Aug/2018 12:39:17] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [20/Aug/2018 12:39:18] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [20/Aug/2018 12:39:28] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+109.40.66.253 - - [22/Aug/2018 09:05:17] "GET /stimmen.html HTTP/1.1" 200 -
+109.40.66.253 - - [22/Aug/2018 09:05:17] "GET /ajaxstuff.js HTTP/1.1" 200 -
+109.40.66.253 - - [22/Aug/2018 09:05:17] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+84.170.236.32 - - [22/Aug/2018 16:14:31] "GET /stimmen.html HTTP/1.1" 200 -
+84.170.236.32 - - [22/Aug/2018 16:14:31] "GET /ajaxstuff.js HTTP/1.1" 200 -
+84.170.236.32 - - [22/Aug/2018 16:14:31] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [22/Aug/2018 16:15:17] code 404, message File not found
+84.170.236.32 - - [22/Aug/2018 16:15:17] "GET /favicon.ico HTTP/1.1" 404 -
+160.120.24.120 - - [22/Aug/2018 16:24:09] "GET /stimmen.html HTTP/1.1" 200 -
+160.120.24.120 - - [22/Aug/2018 16:24:10] "GET /stimmentext.txt HTTP/1.1" 200 -
+92.84.240.110 - - [22/Aug/2018 22:58:47] "GET /stimmen.html HTTP/1.1" 200 -
+92.84.240.110 - - [22/Aug/2018 22:58:47] "GET /ajaxstuff.js HTTP/1.1" 200 -
+92.84.240.110 - - [22/Aug/2018 22:58:47] "GET /stimmentext.txt HTTP/1.1" 200 -
+23.225.167.111 - - [22/Aug/2018 23:32:22] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:22] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:22] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:22] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:23] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:23] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:24] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:24] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:25] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:25] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:26] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:26] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:27] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:27] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:28] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:28] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:28] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:28] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:29] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:29] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:30] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:30] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:31] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:31] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:32] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:32] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:33] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:33] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:34] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:34] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:34] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:34] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:35] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:35] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:36] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:36] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:37] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:37] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:38] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:38] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:39] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:39] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:40] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:40] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:40] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:40] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:41] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:41] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:42] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:42] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:43] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:43] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:44] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:44] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:45] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:45] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:46] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:46] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:46] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:46] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:47] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:47] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:48] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:48] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:49] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:49] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:50] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:50] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:51] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:51] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:52] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:52] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:53] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:53] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:53] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:53] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:54] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:54] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:55] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:55] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:56] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:56] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:57] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:57] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:58] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:58] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:59] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:59] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:32:59] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:32:59] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:00] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:00] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:01] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:01] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:02] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:02] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:03] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:03] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:04] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:04] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:04] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:04] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:05] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:05] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:06] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:06] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:07] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:07] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:08] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:08] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:09] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:09] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:10] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:10] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:11] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:11] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:11] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:11] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:12] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:12] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:13] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:13] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:14] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:14] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:15] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:15] "SSH-2.0-libssh2_1.4.3" 400 -
+23.225.167.111 - - [22/Aug/2018 23:33:16] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.3')
+23.225.167.111 - - [22/Aug/2018 23:33:16] "SSH-2.0-libssh2_1.4.3" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+84.170.236.32 - - [23/Aug/2018 12:40:12] "GET /stimmen.html HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:40:12] "GET /ajaxstuff.js HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:40:13] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:21] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:41:25] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:26] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:41:28] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:41:31] code 404, message File not found
+84.170.236.32 - - [23/Aug/2018 12:41:31] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:47] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:48] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:48] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 26: ordinal not in range(128)
+84.170.236.32 - - [23/Aug/2018 12:41:48] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:41:52] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:42:00] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:44:59] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:45:34] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:48:41] "GET /small.html HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 12:48:41] code 404, message File not found
+84.170.236.32 - - [23/Aug/2018 12:48:41] "GET /small HTTP/1.1" 404 -
+84.170.236.32 - - [23/Aug/2018 12:48:41] "GET /smalltext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:52:32] "GET /stimmen.html HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:52:32] "GET /ajaxstuff.js HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:52:32] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:53:51] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "therouteserver.py", line 27, in do_POST
+    sm.write(str(result[0])+' :: '+str(result[1])+'\n')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 31-32: ordinal not in range(128)
+2.206.140.103 - - [23/Aug/2018 12:56:32] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:56:39] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:57:06] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 12:57:06] code 404, message File not found
+2.206.140.103 - - [23/Aug/2018 12:57:06] "GET /favicon.ico HTTP/1.1" 404 -
+46.84.246.172 - - [23/Aug/2018 12:59:08] "GET /stimmen.html HTTP/1.1" 200 -
+46.84.246.172 - - [23/Aug/2018 12:59:11] "GET /ajaxstuff.js HTTP/1.1" 200 -
+46.84.246.172 - - [23/Aug/2018 12:59:12] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 13:00:27] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 13:03:37] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 13:06:22] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 13:07:04] "GET /stimmentext.txt HTTP/1.1" 200 -
+84.170.236.32 - - [23/Aug/2018 13:07:10] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.206.140.103 - - [23/Aug/2018 14:03:14] "GET /stimmentext.txt HTTP/1.1" 200 -
+188.106.249.57 - - [24/Aug/2018 00:51:35] "GET /stimmen.html HTTP/1.1" 200 -
+188.106.249.57 - - [24/Aug/2018 00:51:35] "GET /ajaxstuff.js HTTP/1.1" 200 -
+188.106.249.57 - - [24/Aug/2018 00:51:35] "GET /stimmentext.txt HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 12:38:56] "GET /stimmen.html HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 12:38:56] "GET /ajaxstuff.js HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 12:38:56] "GET /stimmentext.txt HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 12:57:46] "GET /stimmen.html HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 12:57:46] "GET /stimmentext.txt HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 13:02:46] "GET /stimmen.html HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 13:02:46] "GET /ajaxstuff.js HTTP/1.1" 200 -
+178.0.51.217 - - [24/Aug/2018 13:02:47] "GET /stimmentext.txt HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+222.186.42.223 - - [24/Aug/2018 15:46:06] code 400, message Bad request syntax ('SSH-2.0-libssh2_1.4.2')
+222.186.42.223 - - [24/Aug/2018 15:46:06] "SSH-2.0-libssh2_1.4.2" 400 -
+71.6.146.130 - - [25/Aug/2018 00:28:36] code 400, message Bad request syntax ('\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+71.6.146.130 - - [25/Aug/2018 00:28:36] "                        " 400 -
+95.91.241.241 - - [25/Aug/2018 12:08:17] "GET /stimmen.html HTTP/1.1" 200 -
+95.91.241.241 - - [25/Aug/2018 12:08:18] "GET /ajaxstuff.js HTTP/1.1" 200 -
+95.91.241.241 - - [25/Aug/2018 12:08:18] "GET /stimmentext.txt HTTP/1.1" 200 -
+82.80.249.192 - - [25/Aug/2018 12:10:09] "GET /stimmen.html HTTP/1.1" 200 -
+82.80.249.192 - - [25/Aug/2018 12:10:13] "GET /stimmentext.txt HTTP/1.1" 200 -
+18.220.143.38 - - [25/Aug/2018 12:45:11] "GET /stimmen.html HTTP/1.1" 200 -
+18.220.143.38 - - [25/Aug/2018 12:45:11] "GET /ajaxstuff.js HTTP/1.1" 200 -
+18.220.143.38 - - [25/Aug/2018 12:45:12] "GET /stimmentext.txt HTTP/1.1" 200 -
+46.5.0.86 - - [26/Aug/2018 04:18:16] "GET /stimmen.html HTTP/1.1" 200 -
+46.5.0.86 - - [26/Aug/2018 04:18:16] "GET /ajaxstuff.js HTTP/1.1" 200 -
+46.5.0.86 - - [26/Aug/2018 04:18:16] "GET /stimmentext.txt HTTP/1.1" 200 -
+66.249.81.221 - - [26/Aug/2018 12:06:39] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.217 - - [26/Aug/2018 12:06:39] "GET /ajaxstuff.js HTTP/1.1" 200 -
+66.249.81.219 - - [26/Aug/2018 12:06:39] "GET /stimmentext.txt HTTP/1.1" 200 -
+66.249.81.221 - - [26/Aug/2018 12:09:46] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.219 - - [26/Aug/2018 12:09:53] code 404, message File not found
+66.249.81.219 - - [26/Aug/2018 12:09:53] "GET /favicon.ico HTTP/1.1" 404 -
+87.188.193.146 - - [26/Aug/2018 12:09:56] code 404, message File not found
+87.188.193.146 - - [26/Aug/2018 12:09:56] "GET /favicon.ico HTTP/1.1" 404 -
+66.249.81.217 - - [26/Aug/2018 12:10:06] code 404, message File not found
+66.249.81.217 - - [26/Aug/2018 12:10:06] "GET /favicon.ico HTTP/1.1" 404 -
+66.249.81.217 - - [26/Aug/2018 12:10:52] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.219 - - [26/Aug/2018 12:10:57] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.217 - - [26/Aug/2018 12:12:10] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.221 - - [26/Aug/2018 12:12:13] "GET /stimmen.html HTTP/1.1" 200 -
+66.249.81.217 - - [26/Aug/2018 12:12:24] code 404, message File not found
+66.249.81.217 - - [26/Aug/2018 12:12:24] "GET /smallhtml HTTP/1.1" 404 -
+66.249.81.217 - - [26/Aug/2018 12:12:30] "GET /small.html HTTP/1.1" 200 -
+66.249.81.217 - - [26/Aug/2018 12:12:30] "GET /smalltext.txt HTTP/1.1" 200 -
+66.249.81.217 - - [26/Aug/2018 12:13:58] code 404, message File not found
+66.249.81.217 - - [26/Aug/2018 12:13:58] "GET /favicon.ico HTTP/1.1" 404 -
+85.182.118.79 - - [26/Aug/2018 13:31:54] "GET /stimmen.html HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:31:54] "GET /ajaxstuff.js HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:31:54] "GET /stimmentext.txt HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:32:30] code 404, message File not found
+85.182.118.79 - - [26/Aug/2018 13:32:30] "GET /favicon.ico HTTP/1.1" 404 -
+85.182.118.79 - - [26/Aug/2018 13:32:30] code 404, message File not found
+85.182.118.79 - - [26/Aug/2018 13:32:30] "GET /favicon.ico HTTP/1.1" 404 -
+85.182.118.79 - - [26/Aug/2018 13:35:48] "GET /stimmentext.txt HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:35:48] "GET /stimmentext.txt HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:35:49] "GET /stimmentext.txt HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:35:49] "GET /stimmentext.txt HTTP/1.1" 200 -
+85.182.118.79 - - [26/Aug/2018 13:54:21] "GET /stimmentext.txt HTTP/1.1" 200 -
+88.133.40.185 - - [26/Aug/2018 15:05:57] "GET /stimmen.html HTTP/1.1" 200 -
+88.133.40.185 - - [26/Aug/2018 15:05:58] "GET /ajaxstuff.js HTTP/1.1" 200 -
+88.133.40.185 - - [26/Aug/2018 15:05:58] "GET /stimmentext.txt HTTP/1.1" 200 -
+77.15.202.62 - - [26/Aug/2018 23:07:30] "GET /stimmen.html HTTP/1.1" 200 -
+77.15.202.62 - - [26/Aug/2018 23:07:30] "GET /ajaxstuff.js HTTP/1.1" 200 -
+77.15.202.62 - - [26/Aug/2018 23:07:31] "GET /stimmentext.txt HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:37:42] "GET /stimmen.html HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:37:42] "GET /ajaxstuff.js HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:37:43] "GET /stimmentext.txt HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:39:40] "GET /stimmen.html HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:39:40] "GET /ajaxstuff.js HTTP/1.1" 200 -
+109.252.2.163 - - [26/Aug/2018 23:39:41] "GET /stimmentext.txt HTTP/1.1" 200 -
+78.34.172.164 - - [27/Aug/2018 09:42:56] "GET /stimmen.html HTTP/1.1" 200 -
+78.34.172.164 - - [27/Aug/2018 09:42:56] "GET /ajaxstuff.js HTTP/1.1" 200 -
+78.34.172.164 - - [27/Aug/2018 09:42:57] "GET /stimmentext.txt HTTP/1.1" 200 -
+178.12.239.103 - - [27/Aug/2018 11:29:21] "GET /stimmen.html HTTP/1.1" 200 -
+178.12.239.103 - - [27/Aug/2018 11:29:22] "GET /ajaxstuff.js HTTP/1.1" 200 -
+178.12.239.103 - - [27/Aug/2018 11:29:22] "GET /stimmentext.txt HTTP/1.1" 200 -
+77.14.119.246 - - [27/Aug/2018 12:34:30] "GET /stimmen.html HTTP/1.1" 200 -
+77.14.119.246 - - [27/Aug/2018 12:34:30] "GET /ajaxstuff.js HTTP/1.1" 200 -
+77.14.119.246 - - [27/Aug/2018 12:34:30] "GET /stimmentext.txt HTTP/1.1" 200 -
+158.181.96.12 - - [27/Aug/2018 13:24:29] "GET /stimmen.html HTTP/1.1" 200 -
+158.181.96.12 - - [27/Aug/2018 13:24:29] "GET /ajaxstuff.js HTTP/1.1" 200 -
+158.181.96.12 - - [27/Aug/2018 13:24:29] "GET /stimmentext.txt HTTP/1.1" 200 -
+77.14.119.246 - - [27/Aug/2018 14:55:10] "GET /stimmentext.txt HTTP/1.1" 200 -
+77.182.81.230 - - [28/Aug/2018 11:50:38] "GET /stimmen.html HTTP/1.1" 200 -
+77.182.81.230 - - [28/Aug/2018 11:50:38] "GET /ajaxstuff.js HTTP/1.1" 200 -
+77.182.81.230 - - [28/Aug/2018 11:50:38] "GET /stimmentext.txt HTTP/1.1" 200 -
+37.201.228.131 - - [28/Aug/2018 12:20:37] "GET /stimmen.html HTTP/1.1" 200 -
+37.201.228.131 - - [28/Aug/2018 12:20:37] "GET /ajaxstuff.js HTTP/1.1" 200 -
+37.201.228.131 - - [28/Aug/2018 12:20:38] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.203.229.45 - - [28/Aug/2018 12:46:44] "GET /stimmen.html HTTP/1.1" 200 -
+2.203.229.45 - - [28/Aug/2018 12:46:44] "GET /ajaxstuff.js HTTP/1.1" 200 -
+2.203.229.45 - - [28/Aug/2018 12:46:44] "GET /stimmentext.txt HTTP/1.1" 200 -
+2.203.229.45 - - [28/Aug/2018 12:46:45] code 404, message File not found
+2.203.229.45 - - [28/Aug/2018 12:46:45] "GET /favicon.ico HTTP/1.1" 404 -
+87.188.193.146 - - [28/Aug/2018 14:20:33] "GET /stimmen.html HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:20:33] "GET /ajaxstuff.js HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:20:34] "GET /stimmentext.txt HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:23:08] "GET /stimmen.html HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:23:09] "GET /ajaxstuff.js HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:23:09] "GET /stimmentext.txt HTTP/1.1" 200 -
+87.188.193.146 - - [28/Aug/2018 14:24:04] "GET /stimmentext.txt HTTP/1.1" 200 -

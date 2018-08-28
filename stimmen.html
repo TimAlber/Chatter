@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Chat Room</title>
+</head>
+<body>
+
+<script src="ajaxstuff.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<h3>Willkommen auf dem Chatroom des Netzwerk Stimmenhoeren.</h3>
+<iframe id="frame" src="stimmentext.txt" width="100%" height="80%" scrolling="auto">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<form name=test_form>
+<input id="nick" name="nickf" type="text" size="25%"value="Langweiliger Gast Name" onfocus="if (this.value=='Langweiliger Gast Name') this.value='';"/>
+<input id="msg" name="msgf" type="text" size="100%" value="Nachricht eingeben..." onfocus="if (this.value=='Nachricht eingeben...') this.value='';"/>
+<input type=button name="msgbtn" onClick="msg_button();" size="100%" value="Nachricht schicken">
+</form>
+
+</body>
+</html>
